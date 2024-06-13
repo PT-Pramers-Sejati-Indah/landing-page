@@ -2,7 +2,11 @@ import { Button } from '@/components/ui/button'
 import Typography from '@/components/ui/typography'
 import Image from 'next/image'
 import Feature from './feature'
-import { ArrowUpDown, Timer, Workflow } from 'lucide-react'
+import {
+  TabletSmartphone,
+  Timer,
+  Workflow
+} from 'lucide-react'
 // import Link from 'next/link'
 
 export default function Home() {
@@ -60,7 +64,7 @@ export default function Home() {
               description="Aplikasi notaris berbasis cloud yang online 24/7, memastikan akses mudah dan cepat kapan saja dan di mana saja."
             />
             <Feature
-              icon={<ArrowUpDown size={24} />}
+              icon={<TabletSmartphone size={24} />}
               headline="Berbagai Platform"
               description="Notive memudahkan Anda dengan akses yang fleksibel dari laptop, komputer, dan smartphone. Nikmati kemudahan lebih dengan aplikasi khusus untuk iOS, Android, maupun Web."
             />

@@ -53,7 +53,7 @@ export default function Home() {
           width={1024}
           height={632}
           alt="Pandem.dev hero image"
-          src="/hero.png"
+          src="/hero1.png"
         />
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">

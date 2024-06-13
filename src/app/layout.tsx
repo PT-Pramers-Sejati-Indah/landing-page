@@ -9,8 +9,7 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title:
-    'Pandem - Information you need during on-call emergencies',
+  title: 'Notive - Untuk kamu notaris pintar',
   description:
     'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
   openGraph: {

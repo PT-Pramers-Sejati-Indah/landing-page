@@ -13,12 +13,15 @@ export function Footer() {
           >
             <img src="/logo.svg" className="mr-3" />
             <Typography className="!text-white !text-base font-medium ">
-              Pandem
+              Notive
             </Typography>
           </Link>
         </div>
         <div className="flex max-w-fit items-center gap-x-4">
-          <Link
+          <Typography variant="p" className="w-max">
+            Coming Soon
+          </Typography>
+          {/* <Link
             href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
             target="_blank"
             className="pointer block w-fit flex-1"
@@ -42,7 +45,7 @@ export function Footer() {
             <Typography variant="p">
               Privacy Policy
             </Typography>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </footer>

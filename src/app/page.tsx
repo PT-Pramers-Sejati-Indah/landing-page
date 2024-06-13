@@ -5,9 +5,10 @@ import Feature from './feature'
 import {
   TabletSmartphone,
   Timer,
-  Workflow
+  Workflow,
+  MessageCircle
 } from 'lucide-react'
-// import Link from 'next/link'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
           dalam proses ke notariatan.
         </Typography>
 
-        <div className="flex items-center space-x-4">
+        {/* <div className="flex items-center space-x-4">
           <input
             className="border-gray-500 bg-black text-white py-2 px-4 rounded"
             type="email"
@@ -36,15 +37,19 @@ export default function Home() {
           <Button size="tiny" variant="ghost">
             {`Mulai Sekarang`}
           </Button>
-        </div>
-        {/* <Link
+        </div> */}
+        <Link
           href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
           target="_blank"
         >
           <Button size="tiny" variant="ghost">
-            {`Get Started`}
+            <MessageCircle
+              size={24}
+              style={{ marginRight: 8 }}
+            />{' '}
+            {`Whatsapp Kami`}
           </Button>
-        </Link> */}
+        </Link>
         <Image
           width={1024}
           height={632}

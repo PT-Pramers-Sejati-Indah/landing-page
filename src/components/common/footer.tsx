@@ -12,7 +12,7 @@ export function Footer() {
             className="pointer flex items-center"
           >
             <img src="/logo.svg" className="mr-3" />
-            <Typography className="!text-white !text-base font-medium ">
+            <Typography className="!text-base font-medium ">
               Notive
             </Typography>
           </Link>

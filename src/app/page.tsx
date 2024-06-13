@@ -18,14 +18,13 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Digitalisasi Notaris Untuk Kamu{' '}
-          <span style={{ color: '#2A4FD3' }}>
-            Notaris Pintar
-          </span>
+          Digitalisasi Proses Notaris bersama{' '}
+          <span style={{ color: '#2A4FD3' }}>Notive</span>
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
           Bersama Notive tingkatkan pengalaman dan kemudahan
-          dalam proses ke notariatan.
+          dalam proses ke-notariatan dan bergabung bersama
+          notaris pintar lainnya.
         </Typography>
 
         {/* <div className="flex items-center space-x-4">
@@ -60,7 +59,7 @@ export default function Home() {
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Monitor tampa perlu khawatir
+            Monitor Tampa Khawatir
           </Typography>
           <div className="flex md:flex-row flex-col gap-12">
             <Feature

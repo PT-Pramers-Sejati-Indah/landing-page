@@ -11,10 +11,13 @@ export function Footer() {
             href="/"
             className="pointer flex items-center"
           >
-            <img src="/logo.svg" className="mr-3" />
-            <Typography className="!text-base font-medium ">
+            <img
+              src="/notivelogo.svg"
+              className="mr-3 w-16 h-16"
+            />
+            {/* <Typography className="!text-base font-medium ">
               Notive
-            </Typography>
+            </Typography> */}
           </Link>
         </div>
         <div className="flex max-w-fit items-center gap-x-4">

@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils'
 import Link from 'next/link'
 // import { Button } from '@/components/ui/button'
 // import { usePathname } from 'next/navigation'
-import Typography from '@/components/ui/typography'
+// import Typography from '@/components/ui/typography'
 // import {
 //   Drawer,
 //   DrawerClose,
@@ -33,10 +33,13 @@ export function Header({ className }: SidebarProps) {
 
   const getLogo = () => (
     <Link href="/" className="pointer flex items-center">
-      <img src="/logo.svg" className="mr-3" />
-      <Typography className="!text-base font-medium ">
+      <img
+        src="/notivelogo.svg"
+        className="mr-3 w-24 h-24"
+      />
+      {/* <Typography className="!text-base font-medium ">
         Notive
-      </Typography>
+      </Typography> */}
     </Link>
   )
 

@@ -5,8 +5,8 @@ import Feature from './feature'
 import {
   TabletSmartphone,
   Timer,
-  Workflow,
-  MessageCircle
+  Workflow
+  // MessageCircle
 } from 'lucide-react'
 import Link from 'next/link'
 
@@ -23,8 +23,8 @@ export default function Home() {
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
           Bersama Notive tingkatkan pengalaman dan kemudahan
-          dalam proses ke-notariatan dan bergabung bersama
-          notaris pintar lainnya.
+          dalam proses ke-notariatan untuk kamu Notaris
+          pintar.
         </Typography>
 
         {/* <div className="flex items-center space-x-4">
@@ -38,22 +38,22 @@ export default function Home() {
           </Button>
         </div> */}
         <Link
-          href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
+          href="https://forms.gle/YV25LzNUW76sRGrX7"
           target="_blank"
         >
           <Button size="tiny" variant="ghost">
-            <MessageCircle
+            {/* <MessageCircle
               size={24}
               style={{ marginRight: 8 }}
-            />{' '}
-            {`Whatsapp Kami`}
+            />{' '} */}
+            {`Mulai Sekarang`}
           </Button>
         </Link>
         <Image
           width={1024}
           height={632}
           alt="Pandem.dev hero image"
-          src="/hero1.png"
+          src="https://pbs.twimg.com/media/GQa1JLxboAAr7NO?format=jpg&name=4096x4096"
         />
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">

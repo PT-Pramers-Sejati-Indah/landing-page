@@ -1,6 +1,5 @@
 import { Button } from '@/components/ui/button'
 import Typography from '@/components/ui/typography'
-import Image from 'next/image'
 import Feature from './feature'
 import {
   TabletSmartphone,
@@ -49,11 +48,11 @@ export default function Home() {
             {`Mulai Sekarang`}
           </Button>
         </Link>
-        <Image
+        <img
           width={1024}
           height={632}
           alt="Pandem.dev hero image"
-          src="https://pbs.twimg.com/media/GQa1JLxboAAr7NO?format=jpg&name=4096x4096"
+          src="/hero1.png"
         />
       </div>
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
